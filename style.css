@@ -1,0 +1,700 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* Settings */
+
+    body {
+        
+        width: 50%;
+        margin:auto;
+        
+    }
+
+    header{
+        width: 100%;
+    }
+
+    header img{
+        width: 15%
+    }
+
+    
+    
+
+    .titre2 {
+        font-size: 100%; 
+    }
+
+    .petittitre {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .grostitre {
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    
+    .image1 {
+        max-height: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* ------------------------------------ */
+
+    /* Header */
+
+    nav{
+        width: 30%;
+        float: right;
+    } 
+
+    ul {
+        list-style-type: none;
+        
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .home {
+        color: orangered;
+    }
+
+    .pizza {
+        color: orangered;
+    }
+
+    .contact {
+        color: orangered;
+    }
+
+    .logo {
+        float: left;
+        
+    }
+
+    .texteimage {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .imagetexte {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    /* --------------------------------------- */
+
+    /* Home */
+
+    .content {
+    
+        float:left;
+        
+    }
+
+    .titre {
+        text-align: center;
+        font-size: 90%;
+    }
+    .lespizzas {
+        float: left;
+        height: 40%;
+        width: 30%;
+        border-color: red;
+        border-style:solid;
+        text-align: center;
+        
+    }
+
+    .lesburgers{
+        
+        float: left;
+        height: 40%;
+        width: 30%;
+        border-color: red;
+        border-style:solid;
+        text-align: center;
+        
+    }
+
+    .lessalades{
+        float: left;
+        height: 40%;
+        width: 30%;
+        border-color: red;
+        border-style:solid;
+        text-align: center;
+        
+        
+    }
+
+    .ecrit {
+        float: left;
+        font-size: 80%
+    }
+
+    .image2 {
+        margin-top: 10%;
+        height: 80%;
+        width: 100%;
+        
+        
+    }
+
+    .buy {
+        
+        border-radius: 20%;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        height: 50%;
+        width: 70%;
+        float: right;
+        clear: left;
+    }
+
+
+
+    .barre {
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+    }
+
+    .buya {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* --------------------------- */
+
+    /* Commandes */
+
+    .gauche {
+        
+        float: left;
+    }
+
+    .droite {
+    
+        float: right;
+    }
+
+    .gauche1 {
+        
+        float: left;
+        clear: left;
+    }
+
+    .droite1 {
+        
+        float: right;
+        clear: right;
+    }
+
+    .droite2 {
+        margin-top: 4.5%;
+        float: right;
+        clear: right;
+    }
+
+    .send {
+        border-radius: 15%;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        height: 25%;
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .textbox {
+        height: 1.4%;
+        width: 40%;
+        border-radius: 0.2%;
+    }
+
+    .ignore {
+        color: red;
+    }
+
+    .ingredient {
+        width: 70%;
+        height: 1.7%;
+        border-radius: 20%;
+    }
+
+    .quantites {
+        width: 40%;
+        height: 2%;
+        border-radius: 20%;
+    }
+
+    .together {
+        display: flex;
+        justify-items: left;
+        gap: 0.5%;
+        clear: left;
+    }
+    
+
+    /* ---------------------------------------------- */
+
+    /* Contact */
+
+    .upload {
+        width: 7%;
+        height: 2%;
+        background-color: orangered;
+        color: white;
+        border-style: none;
+        border-radius: 0.2%;
+        font-weight: bold;
+    }
+
+    .bigtextbox {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .send1 {
+        border-radius: 1%;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        height: 2.5%;
+        width: 8%;
+        margin-bottom: 3%;
+
+    }
+
+    .map {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        clear: left;
+    }
+
+    .map iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+
+    /* Footer */
+
+    .imgfooter1 {
+        max-height: auto;
+        width: 100%;
+    }
+
+    .imgfooter2 {
+        max-height: auto;
+        width: 100%;
+    }
+
+    .rouge {
+        color: orangered
+    }
+
+    .footertitre {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 4%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+/* ---------------------------------------------------- */
+
+
+/* Settings */
+
+    body {
+        
+        width: 50%;
+        margin:auto;
+        
+    }
+
+    header{
+        width: 100%;
+    }
+
+    header img{
+        width: 15%
+    }
+
+    
+
+    .titre {
+        text-align: center;
+    }
+
+    .titre2 {
+        font-size: 100%; 
+    }
+
+    .petittitre {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .grostitre {
+        position: absolute;
+        top: 19%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    
+
+    .texteimage {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .imagetexte {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    /* ------------------------------------ */
+
+    /* Header */
+
+    nav{
+        width: 50%;
+        float: right;
+    } 
+
+    ul {
+        list-style-type: none;
+        
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .home {
+        color: orangered;
+    }
+
+    .pizza {
+        color: orangered;
+    }
+
+    .contact {
+        color: orangered;
+    }
+
+    .logo {
+        float: left;
+        
+    }
+
+    /* --------------------------------------- */
+
+    /* Main */
+
+    
+
+    .image1 {
+        max-height: auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* ------------------------------------ */
+
+    /* Home */
+
+    .content {
+    
+        float:left;
+        
+    }
+
+
+
+    .lespizzas {
+        float: left;
+        height: 60%;
+        width: 20%;
+        border-color: red;
+        border-style:solid;
+        text-align: center;
+        
+    }
+
+    .lesburgers{
+        
+        float: left;
+        height: 60%;
+        width: 20%;
+        border-color: red;
+        border-style:solid;
+        text-align: center;
+        
+    }
+
+    .lessalades{
+        float: left;
+        height: 60%;
+        width: 20%;
+        border-color: red;
+        border-style:solid;
+        text-align: center;
+        
+        
+    }
+
+    .ecrit {
+        float: left;
+        
+    }
+
+    .image2 {
+        margin-top: 10%;
+        height: 40%;
+        width: 100%;
+        
+        
+    }
+
+    .buy {
+        
+        border-radius: 17px;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        height: 50%;
+        width: 40%;
+        float: right;
+        clear: left;
+    }
+
+
+
+    .barre {
+        border-style: solid;
+        border-color: black;
+        border-width: 2px;
+    }
+
+    .buya {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    /* --------------------------- */
+
+    /* Commandes */
+
+    .gauche {
+        
+        float: left;
+    }
+
+    .droite {
+    
+        float: right;
+    }
+
+    .gauche1 {
+        
+        float: left;
+        clear: left;
+    }
+
+    .droite1 {
+        
+        float: right;
+        clear: right;
+    }
+
+    .droite2 {
+        margin-top: 4.5%;
+        float: right;
+        clear: right;
+    }
+
+    .send {
+        border-radius: 15%;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        height: 25%;
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .textbox {
+        height: 1.4%;
+        
+        border-radius: 0.2%;
+    }
+
+    .ignore {
+        color: red;
+    }
+
+    .ingredient {
+        width: 100%;
+        height: 1.7%;
+        border-radius: 20%;
+    }
+
+    .quantites {
+        width: 100%;
+        height: 2%;
+        border-radius: 20%;
+    }
+
+    .together {
+        display: flex;
+        justify-items: left;
+        gap: 0.5%;
+        clear: left;
+    }
+    
+
+    /* ---------------------------------------------- */
+
+    /* Contact */
+
+    .upload {
+        width: 7%;
+        height: 2%;
+        background-color: orangered;
+        color: white;
+        border-style: none;
+        border-radius: 0.2%;
+        font-weight: bold;
+    }
+
+    .bigtextbox {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .send1 {
+        border-radius: 1%;
+        border-style: none;
+        background-color: orangered;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        height: 2.5%;
+        width: 8%;
+        margin-bottom: 3%;
+
+    }
+
+    .map {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        clear: left;
+    }
+
+    .map iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
+
+    /* Footer */
+
+    .imgfooter1 {
+        max-height: auto;
+        width: 100%;
+    }
+
+    .imgfooter2 {
+        max-height: auto;
+        width: 100%;
+    }
+
+    .rouge {
+        color: orangered
+    }
+
+    .footertitre {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 4%;
+    }
+}
